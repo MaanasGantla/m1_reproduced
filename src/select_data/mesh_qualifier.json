@@ -1,0 +1,458 @@
+[
+  {
+    "code": "00",
+    "title": "Abnormalities",
+    "description": "Used with organs for congenital defects producing changes in the morphology of the organ. It is used also for abnormalities in animals.",
+    "prompt": "### Abnormalities\n* Code: 00\n* Description: Used with organs for congenital defects producing changes in the morphology of the organ. It is used also for abnormalities in animals."
+  },
+  {
+    "code": "01",
+    "title": "Administration & Dosage",
+    "description": "Used with drugs for dosage forms, routes of administration, frequency and duration of administration, quantity of medication, and the effects of these factors.",
+    "prompt": "### Administration & Dosage\n* Code: 01\n* Description: Used with drugs for dosage forms, routes of administration, frequency and duration of administration, quantity of medication, and the effects of these factors."
+  },
+  {
+    "code": "02",
+    "title": "Adverse Effects",
+    "description": "Used with drugs, chemicals, or biological agents in accepted dosage - or with physical agents or manufactured products in normal usage - when intended for diagnostic, therapeutic, prophylactic, or anesthetic purposes. It is used also for adverse effects or complications of diagnostic, therapeutic, prophylactic, anesthetic, surgical, or other procedures.",
+    "prompt": "### Adverse Effects\n* Code: 02\n* Description: Used with drugs, chemicals, or biological agents in accepted dosage - or with physical agents or manufactured products in normal usage - when intended for diagnostic, therapeutic, prophylactic, or anesthetic purposes. It is used also for adverse effects or complications of diagnostic, therapeutic, prophylactic, anesthetic, surgical, or other procedures."
+  },
+  {
+    "code": "03",
+    "title": "Agonists",
+    "description": "Used with chemicals, drugs, and endogenous substances to indicate substances or agents that have affinity for a receptor and intrinsic activity at that receptor. (From Textbook of Pharmacology, 1991, p.16)",
+    "prompt": "### Agonists\n* Code: 03\n* Description: Used with chemicals, drugs, and endogenous substances to indicate substances or agents that have affinity for a receptor and intrinsic activity at that receptor. (From Textbook of Pharmacology, 1991, p.16)"
+  },
+  {
+    "code": "04",
+    "title": "Analogs & Derivatives",
+    "description": "Used with drugs and chemicals for substances that share the same parent molecule or have similar electronic structure but differ by the addition or substitution of other atoms or molecules. It is used when the specific chemical heading is not available and no appropriate group heading exists.",
+    "prompt": "### Analogs & Derivatives\n* Code: 04\n* Description: Used with drugs and chemicals for substances that share the same parent molecule or have similar electronic structure but differ by the addition or substitution of other atoms or molecules. It is used when the specific chemical heading is not available and no appropriate group heading exists."
+  },
+  {
+    "code": "05",
+    "title": "Analysis",
+    "description": "Used for the identification or quantitative determination of a substance or its constituents and metabolites; includes the analysis of air, water, or other environmental carrier. It excludes the chemical analysis of tissues, tumors, body fluids, organisms, and plants for which \"chemistry\" is used. The concept applies to both methodology and results. For analysis of substances in blood, cerebrospinal fluid, and urine the specific subheading designating the fluid is used.",
+    "prompt": "### Analysis\n* Code: 05\n* Description: Used for the identification or quantitative determination of a substance or its constituents and metabolites; includes the analysis of air, water, or other environmental carrier. It excludes the chemical analysis of tissues, tumors, body fluids, organisms, and plants for which \"chemistry\" is used. The concept applies to both methodology and results. For analysis of substances in blood, cerebrospinal fluid, and urine the specific subheading designating the fluid is used."
+  },
+  {
+    "code": "06",
+    "title": "Anatomy & Histology",
+    "description": "Used with organs, regions, and tissues for normal descriptive anatomy and histology, and for the normal anatomy and structure of animals and plants.",
+    "prompt": "### Anatomy & Histology\n* Code: 06\n* Description: Used with organs, regions, and tissues for normal descriptive anatomy and histology, and for the normal anatomy and structure of animals and plants."
+  },
+  {
+    "code": "07",
+    "title": "Antagonists & Inhibitors",
+    "description": "Used with chemicals, drugs, and endogenous substances to indicate substances or agents which counteract their biological effects by any mechanism.",
+    "prompt": "### Antagonists & Inhibitors\n* Code: 07\n* Description: Used with chemicals, drugs, and endogenous substances to indicate substances or agents which counteract their biological effects by any mechanism."
+  },
+  {
+    "code": "08",
+    "title": "Biosynthesis",
+    "description": "Used for the anabolic formation of chemical substances in organisms, in living cells, or by subcellular fractions.",
+    "prompt": "### Biosynthesis\n* Code: 08\n* Description: Used for the anabolic formation of chemical substances in organisms, in living cells, or by subcellular fractions."
+  },
+  {
+    "code": "09",
+    "title": "Blood",
+    "description": "Used for the presence or analysis of substances in the blood; also for examination of, or changes in, the blood in disease states. It excludes serodiagnosis, for which the subheading \"diagnosis\" is used, and serology, for which \"immunology\" is used.",
+    "prompt": "### Blood\n* Code: 09\n* Description: Used for the presence or analysis of substances in the blood; also for examination of, or changes in, the blood in disease states. It excludes serodiagnosis, for which the subheading \"diagnosis\" is used, and serology, for which \"immunology\" is used."
+  },
+  {
+    "code": "10",
+    "title": "Blood Supply",
+    "description": "Used for arterial, capillary, and venous systems of an organ or region whenever the specific heading for the vessel does not exist. It includes blood flow through the organ.",
+    "prompt": "### Blood Supply\n* Code: 10\n* Description: Used for arterial, capillary, and venous systems of an organ or region whenever the specific heading for the vessel does not exist. It includes blood flow through the organ."
+  },
+  {
+    "code": "11",
+    "title": "Cerebrospinal Fluid",
+    "description": "Used for the presence or analysis of substances in the cerebrospinal fluid; also for examination of or changes in cerebrospinal fluid in disease states.",
+    "prompt": "### Cerebrospinal Fluid\n* Code: 11\n* Description: Used for the presence or analysis of substances in the cerebrospinal fluid; also for examination of or changes in cerebrospinal fluid in disease states."
+  },
+  {
+    "code": "12",
+    "title": "Chemical Synthesis",
+    "description": "Used for the chemical preparation of molecules in vitro. For the formation of chemical substances in organisms, living cells, or subcellular fractions, \"biosynthesis\" is used.",
+    "prompt": "### Chemical Synthesis\n* Code: 12\n* Description: Used for the chemical preparation of molecules in vitro. For the formation of chemical substances in organisms, living cells, or subcellular fractions, \"biosynthesis\" is used."
+  },
+  {
+    "code": "13",
+    "title": "Chemically Induced",
+    "description": "Used for biological phenomena, diseases, syndromes, congenital abnormalities, or symptoms caused by endogenous or exogenous substances.",
+    "prompt": "### Chemically Induced\n* Code: 13\n* Description: Used for biological phenomena, diseases, syndromes, congenital abnormalities, or symptoms caused by endogenous or exogenous substances."
+  },
+  {
+    "code": "14",
+    "title": "Chemistry",
+    "description": "Used with chemicals, biological, and non-biological substances for their composition, structure, characterization, and properties; also used for the chemical composition or content of organs, tissue, tumors, body fluids, organisms, and plants. Excludes chemical analysis and determination of substances for which \"analysis\" is used; excludes synthesis for which \"chemical synthesis\" is used; excludes isolation and purification of substances for which \"isolation & purification\" is used.",
+    "prompt": "### Chemistry\n* Code: 14\n* Description: Used with chemicals, biological, and non-biological substances for their composition, structure, characterization, and properties; also used for the chemical composition or content of organs, tissue, tumors, body fluids, organisms, and plants. Excludes chemical analysis and determination of substances for which \"analysis\" is used; excludes synthesis for which \"chemical synthesis\" is used; excludes isolation and purification of substances for which \"isolation & purification\" is used."
+  },
+  {
+    "code": "15",
+    "title": "Classification",
+    "description": "Used for taxonomic or other systematic or hierarchical classification systems.",
+    "prompt": "### Classification\n* Code: 15\n* Description: Used for taxonomic or other systematic or hierarchical classification systems."
+  },
+  {
+    "code": "16",
+    "title": "Complications",
+    "description": "Used with diseases to indicate conditions that co-exist or follow, i.e., co-existing diseases, complications, or sequelae.",
+    "prompt": "### Complications\n* Code: 16\n* Description: Used with diseases to indicate conditions that co-exist or follow, i.e., co-existing diseases, complications, or sequelae."
+  },
+  {
+    "code": "17",
+    "title": "Congenital",
+    "description": "Used with disease headings to indicate those conditions existing at, and usually before, birth. It excludes morphologic abnormalities and birth injuries, for which \"abnormalities\" and \"injuries\" are used.",
+    "prompt": "### Congenital\n* Code: 17\n* Description: Used with disease headings to indicate those conditions existing at, and usually before, birth. It excludes morphologic abnormalities and birth injuries, for which \"abnormalities\" and \"injuries\" are used."
+  },
+  {
+    "code": "18",
+    "title": "Cytology",
+    "description": "Used for cellular appearance of unicellular and multicellular organisms.",
+    "prompt": "### Cytology\n* Code: 18\n* Description: Used for cellular appearance of unicellular and multicellular organisms."
+  },
+  {
+    "code": "19",
+    "title": "Deficiency",
+    "description": "Used with endogenous and exogenous substances which are absent or in diminished amount relative to the normal requirement of an organism or a biologic system.",
+    "prompt": "### Deficiency\n* Code: 19\n* Description: Used with endogenous and exogenous substances which are absent or in diminished amount relative to the normal requirement of an organism or a biologic system."
+  },
+  {
+    "code": "20",
+    "title": "Diagnosis",
+    "description": "Used with diseases for all aspects of diagnosis, including examination, differential diagnosis and prognosis. Excludes diagnosis using imaging techniques (e.g. radiography, scintigraphy, and ultrasonography) for which \"diagnostic imaging\" is used.",
+    "prompt": "### Diagnosis\n* Code: 20\n* Description: Used with diseases for all aspects of diagnosis, including examination, differential diagnosis and prognosis. Excludes diagnosis using imaging techniques (e.g. radiography, scintigraphy, and ultrasonography) for which \"diagnostic imaging\" is used."
+  },
+  {
+    "code": "21",
+    "title": "Diagnostic Imaging",
+    "description": "Used for the visualization of an anatomical structure or for the diagnosis of disease. Commonly used imaging techniques include radiography, radionuclide imaging, thermography, tomography, and ultrasonography",
+    "prompt": "### Diagnostic Imaging\n* Code: 21\n* Description: Used for the visualization of an anatomical structure or for the diagnosis of disease. Commonly used imaging techniques include radiography, radionuclide imaging, thermography, tomography, and ultrasonography"
+  },
+  {
+    "code": "22",
+    "title": "Diet Therapy",
+    "description": "Used with disease headings for dietary and nutritional management of the disease. The concept does not include vitamin or mineral supplements, for which \"drug therapy\" may be used.",
+    "prompt": "### Diet Therapy\n* Code: 22\n* Description: Used with disease headings for dietary and nutritional management of the disease. The concept does not include vitamin or mineral supplements, for which \"drug therapy\" may be used."
+  },
+  {
+    "code": "23",
+    "title": "Drug Effects",
+    "description": "Used with organs, regions, tissues, or organisms and physiological and psychological processes for the effects of drugs and chemicals.",
+    "prompt": "### Drug Effects\n* Code: 23\n* Description: Used with organs, regions, tissues, or organisms and physiological and psychological processes for the effects of drugs and chemicals."
+  },
+  {
+    "code": "24",
+    "title": "Drug Therapy",
+    "description": "Used with disease headings for the treatment of disease by the administration of drugs, chemicals, and antibiotics. For diet therapy and radiotherapy, use specific subheadings. Excludes immunotherapy for which \"therapy\" is used.",
+    "prompt": "### Drug Therapy\n* Code: 24\n* Description: Used with disease headings for the treatment of disease by the administration of drugs, chemicals, and antibiotics. For diet therapy and radiotherapy, use specific subheadings. Excludes immunotherapy for which \"therapy\" is used."
+  },
+  {
+    "code": "25",
+    "title": "Economics",
+    "description": "Used for the economic aspects of any subject, as well as for all aspects of financial management. It includes the raising or providing of funds.",
+    "prompt": "### Economics\n* Code: 25\n* Description: Used for the economic aspects of any subject, as well as for all aspects of financial management. It includes the raising or providing of funds."
+  },
+  {
+    "code": "26",
+    "title": "Education",
+    "description": "Used for education, training programs, and courses in various fields and disciplines, and for training groups of persons.",
+    "prompt": "### Education\n* Code: 26\n* Description: Used for education, training programs, and courses in various fields and disciplines, and for training groups of persons."
+  },
+  {
+    "code": "27",
+    "title": "Embryology",
+    "description": "Used with organs, regions, and animal headings for embryologic and fetal development. It is used also with diseases for embryologic factors contributing to postnatal disorders.",
+    "prompt": "### Embryology\n* Code: 27\n* Description: Used with organs, regions, and animal headings for embryologic and fetal development. It is used also with diseases for embryologic factors contributing to postnatal disorders."
+  },
+  {
+    "code": "28",
+    "title": "Enzymology",
+    "description": "Used with organisms, except vertebrates, and with organs and tissues. It is also used with diseases for enzymes during the course of the disease, but excludes diagnostic enzyme tests, for which \"diagnosis\" is used.",
+    "prompt": "### Enzymology\n* Code: 28\n* Description: Used with organisms, except vertebrates, and with organs and tissues. It is also used with diseases for enzymes during the course of the disease, but excludes diagnostic enzyme tests, for which \"diagnosis\" is used."
+  },
+  {
+    "code": "29",
+    "title": "Epidemiology",
+    "description": "Used with human and veterinary diseases for the distribution of disease, factors which cause disease, and the attributes of disease in defined populations; includes incidence, frequency, prevalence, endemic and epidemic outbreaks; also surveys and estimates of morbidity in geographic areas and in specified populations. Used also with geographical headings for the location of epidemiologic aspects of a disease. Excludes mortality for which \"mortality\" is used.",
+    "prompt": "### Epidemiology\n* Code: 29\n* Description: Used with human and veterinary diseases for the distribution of disease, factors which cause disease, and the attributes of disease in defined populations; includes incidence, frequency, prevalence, endemic and epidemic outbreaks; also surveys and estimates of morbidity in geographic areas and in specified populations. Used also with geographical headings for the location of epidemiologic aspects of a disease. Excludes mortality for which \"mortality\" is used."
+  },
+  {
+    "code": "30",
+    "title": "Ethics",
+    "description": "Used with techniques and activities for discussion and analysis with respect to human and social values.",
+    "prompt": "### Ethics\n* Code: 30\n* Description: Used with techniques and activities for discussion and analysis with respect to human and social values."
+  },
+  {
+    "code": "31",
+    "title": "Ethnology",
+    "description": "Used with diseases for ethnic, cultural, or anthropological aspects, and with geographic headings to indicate the place of origin of a group of people.",
+    "prompt": "### Ethnology\n* Code: 31\n* Description: Used with diseases for ethnic, cultural, or anthropological aspects, and with geographic headings to indicate the place of origin of a group of people."
+  },
+  {
+    "code": "32",
+    "title": "Etiology",
+    "description": "Used with diseases for causative agents including microorganisms and includes environmental and social factors and personal habits as contributing factors. It includes pathogenesis.",
+    "prompt": "### Etiology\n* Code: 32\n* Description: Used with diseases for causative agents including microorganisms and includes environmental and social factors and personal habits as contributing factors. It includes pathogenesis."
+  },
+  {
+    "code": "33",
+    "title": "Genetics",
+    "description": "Used for mechanisms of heredity and the genetics of organisms, for the genetic basis of normal and pathologic states, and for the genetic aspects of endogenous chemicals. It includes biochemical and molecular influence on genetic material.",
+    "prompt": "### Genetics\n* Code: 33\n* Description: Used for mechanisms of heredity and the genetics of organisms, for the genetic basis of normal and pathologic states, and for the genetic aspects of endogenous chemicals. It includes biochemical and molecular influence on genetic material."
+  },
+  {
+    "code": "34",
+    "title": "Growth & Development",
+    "description": "Used with microorganisms, plants, and the postnatal period of animals for growth and development. It includes also the postnatal growth or development of organs or anatomical parts.",
+    "prompt": "### Growth & Development\n* Code: 34\n* Description: Used with microorganisms, plants, and the postnatal period of animals for growth and development. It includes also the postnatal growth or development of organs or anatomical parts."
+  },
+  {
+    "code": "35",
+    "title": "History",
+    "description": "Used for the historical aspects of any subject. It includes brief historical notes but excludes case histories.",
+    "prompt": "### History\n* Code: 35\n* Description: Used for the historical aspects of any subject. It includes brief historical notes but excludes case histories."
+  },
+  {
+    "code": "36",
+    "title": "Immunology",
+    "description": "Used for immunologic studies of tissues, organs, microorganisms, fungi, viruses, and animals. It includes immunologic aspects of diseases but not immunologic procedures used for diagnostic, preventive, or therapeutic purposes, for which \"diagnosis\", \"prevention & control\", or \"therapy\" are used. The concept is also used for chemicals as antigens or haptens.",
+    "prompt": "### Immunology\n* Code: 36\n* Description: Used for immunologic studies of tissues, organs, microorganisms, fungi, viruses, and animals. It includes immunologic aspects of diseases but not immunologic procedures used for diagnostic, preventive, or therapeutic purposes, for which \"diagnosis\", \"prevention & control\", or \"therapy\" are used. The concept is also used for chemicals as antigens or haptens."
+  },
+  {
+    "code": "37",
+    "title": "Injuries",
+    "description": "Used with anatomic headings, animals, and sports for wounds and injuries. Excludes cell damage, for which \"pathology\" is used.",
+    "prompt": "### Injuries\n* Code: 37\n* Description: Used with anatomic headings, animals, and sports for wounds and injuries. Excludes cell damage, for which \"pathology\" is used."
+  },
+  {
+    "code": "38",
+    "title": "Innervation",
+    "description": "Used with organs, regions, or tissues for their nerve supply.",
+    "prompt": "### Innervation\n* Code: 38\n* Description: Used with organs, regions, or tissues for their nerve supply."
+  },
+  {
+    "code": "39",
+    "title": "Instrumentation",
+    "description": "Used with diagnostic or therapeutic procedures, analytic techniques, and specialties or disciplines, for the development or modification of apparatus, instruments, or equipment.",
+    "prompt": "### Instrumentation\n* Code: 39\n* Description: Used with diagnostic or therapeutic procedures, analytic techniques, and specialties or disciplines, for the development or modification of apparatus, instruments, or equipment."
+  },
+  {
+    "code": "40",
+    "title": "Isolation & Purification",
+    "description": "Used with bacteria, viruses, fungi, protozoa, and helminths for the obtaining of pure strains or for the demonstration of the presence of or identification of organisms by DNA analyses, immunologic, or other methods, including culture techniques. It is used also with biological substances and chemicals for the isolation and purification of the constituents.",
+    "prompt": "### Isolation & Purification\n* Code: 40\n* Description: Used with bacteria, viruses, fungi, protozoa, and helminths for the obtaining of pure strains or for the demonstration of the presence of or identification of organisms by DNA analyses, immunologic, or other methods, including culture techniques. It is used also with biological substances and chemicals for the isolation and purification of the constituents."
+  },
+  {
+    "code": "41",
+    "title": "Legislation & Jurisprudence",
+    "description": "Used for laws, statutes, ordinances, or government regulations, as well as for legal controversy and court decisions.",
+    "prompt": "### Legislation & Jurisprudence\n* Code: 41\n* Description: Used for laws, statutes, ordinances, or government regulations, as well as for legal controversy and court decisions."
+  },
+  {
+    "code": "42",
+    "title": "Metabolism",
+    "description": "Used with organs, cells and subcellular fractions, organisms, and diseases for biochemical changes and metabolism. It is used also with drugs and chemicals for catabolic changes (breakdown of complex molecules into simpler ones). For anabolic processes (conversion of small molecules into large), BIOSYNTHESIS is used. For enzymology and pharmacokinetics, use the specific subheadings.",
+    "prompt": "### Metabolism\n* Code: 42\n* Description: Used with organs, cells and subcellular fractions, organisms, and diseases for biochemical changes and metabolism. It is used also with drugs and chemicals for catabolic changes (breakdown of complex molecules into simpler ones). For anabolic processes (conversion of small molecules into large), BIOSYNTHESIS is used. For enzymology and pharmacokinetics, use the specific subheadings."
+  },
+  {
+    "code": "43",
+    "title": "Methods",
+    "description": "Used with techniques, procedures, and programs for methods.",
+    "prompt": "### Methods\n* Code: 43\n* Description: Used with techniques, procedures, and programs for methods."
+  },
+  {
+    "code": "44",
+    "title": "Microbiology",
+    "description": "Used with organs, animals, and higher plants and with diseases for microbiologic studies. For parasites, \"parasitology\" is used; for viruses, \"virology\" is used.",
+    "prompt": "### Microbiology\n* Code: 44\n* Description: Used with organs, animals, and higher plants and with diseases for microbiologic studies. For parasites, \"parasitology\" is used; for viruses, \"virology\" is used."
+  },
+  {
+    "code": "45",
+    "title": "Mortality",
+    "description": "Used with human and veterinary diseases for mortality statistics. For deaths resulting from various procedures statistically but for a death resulting in a specific case, use FATAL OUTCOME, not /mortality.",
+    "prompt": "### Mortality\n* Code: 45\n* Description: Used with human and veterinary diseases for mortality statistics. For deaths resulting from various procedures statistically but for a death resulting in a specific case, use FATAL OUTCOME, not /mortality."
+  },
+  {
+    "code": "46",
+    "title": "Nursing",
+    "description": "Used with diseases for nursing care and techniques in their management. It includes the nursing role in diagnostic, therapeutic, and preventive procedures.",
+    "prompt": "### Nursing\n* Code: 46\n* Description: Used with diseases for nursing care and techniques in their management. It includes the nursing role in diagnostic, therapeutic, and preventive procedures."
+  },
+  {
+    "code": "47",
+    "title": "Organization & Administration",
+    "description": "Used for administrative structure and management.",
+    "prompt": "### Organization & Administration\n* Code: 47\n* Description: Used for administrative structure and management."
+  },
+  {
+    "code": "48",
+    "title": "Parasitology",
+    "description": "Used with animals, higher plants, organs, and diseases for parasitic factors. In diseases, it is not used if the parasitic involvement is implicit in the diagnosis.",
+    "prompt": "### Parasitology\n* Code: 48\n* Description: Used with animals, higher plants, organs, and diseases for parasitic factors. In diseases, it is not used if the parasitic involvement is implicit in the diagnosis."
+  },
+  {
+    "code": "49",
+    "title": "Pathogenicity",
+    "description": "Used with microorganisms, viruses, and parasites for studies of their ability to cause disease in man, animals, or plants.",
+    "prompt": "### Pathogenicity\n* Code: 49\n* Description: Used with microorganisms, viruses, and parasites for studies of their ability to cause disease in man, animals, or plants."
+  },
+  {
+    "code": "50",
+    "title": "Pathology",
+    "description": "Used for organ, tissue, or cell structure in disease states.",
+    "prompt": "### Pathology\n* Code: 50\n* Description: Used for organ, tissue, or cell structure in disease states."
+  },
+  {
+    "code": "51",
+    "title": "Pharmacokinetics",
+    "description": "Used for the mechanism, dynamics and kinetics of exogenous chemical and drug absorption, biotransformation, distribution, release, transport, uptake and elimination as a function of dosage, extent and rate of metabolic processes.",
+    "prompt": "### Pharmacokinetics\n* Code: 51\n* Description: Used for the mechanism, dynamics and kinetics of exogenous chemical and drug absorption, biotransformation, distribution, release, transport, uptake and elimination as a function of dosage, extent and rate of metabolic processes."
+  },
+  {
+    "code": "52",
+    "title": "Pharmacology",
+    "description": "Used with drugs and exogenously administered chemical substances for their effects on living tissues and organisms. It includes acceleration and inhibition of physiological and biochemical processes and other pharmacologic mechanisms of action.",
+    "prompt": "### Pharmacology\n* Code: 52\n* Description: Used with drugs and exogenously administered chemical substances for their effects on living tissues and organisms. It includes acceleration and inhibition of physiological and biochemical processes and other pharmacologic mechanisms of action."
+  },
+  {
+    "code": "53",
+    "title": "Physiology",
+    "description": "Used with organs, tissues, and cells of unicellular and multicellular organisms for normal function. It is used also with biochemical substances, endogenously produced, for their physiologic role.",
+    "prompt": "### Physiology\n* Code: 53\n* Description: Used with organs, tissues, and cells of unicellular and multicellular organisms for normal function. It is used also with biochemical substances, endogenously produced, for their physiologic role."
+  },
+  {
+    "code": "54",
+    "title": "Physiopathology",
+    "description": "Used with organs and diseases for disordered function in disease states.",
+    "prompt": "### Physiopathology\n* Code: 54\n* Description: Used with organs and diseases for disordered function in disease states."
+  },
+  {
+    "code": "55",
+    "title": "Poisoning",
+    "description": "Used with drugs, chemicals, and industrial materials for human or animal poisoning, acute or chronic, whether the poisoning is accidental, occupational, suicidal, by medication error, or by environmental exposure.",
+    "prompt": "### Poisoning\n* Code: 55\n* Description: Used with drugs, chemicals, and industrial materials for human or animal poisoning, acute or chronic, whether the poisoning is accidental, occupational, suicidal, by medication error, or by environmental exposure."
+  },
+  {
+    "code": "56",
+    "title": "Prevention & Control",
+    "description": "Used with disease headings for increasing human or animal resistance against disease (e.g., immunization), for control of transmission agents, for prevention and control of environmental hazards, or for prevention and control of social factors leading to disease. It includes preventive measures in individual cases.",
+    "prompt": "### Prevention & Control\n* Code: 56\n* Description: Used with disease headings for increasing human or animal resistance against disease (e.g., immunization), for control of transmission agents, for prevention and control of environmental hazards, or for prevention and control of social factors leading to disease. It includes preventive measures in individual cases."
+  },
+  {
+    "code": "57",
+    "title": "Psychology",
+    "description": "Used with non-psychiatric diseases, techniques, and named groups for psychologic, psychiatric, psychosomatic, psychosocial, behavioral, and emotional aspects, and with psychiatric disease for psychologic aspects; used also with animal terms for animal behavior and psychology.",
+    "prompt": "### Psychology\n* Code: 57\n* Description: Used with non-psychiatric diseases, techniques, and named groups for psychologic, psychiatric, psychosomatic, psychosocial, behavioral, and emotional aspects, and with psychiatric disease for psychologic aspects; used also with animal terms for animal behavior and psychology."
+  },
+  {
+    "code": "58",
+    "title": "Radiation Effects",
+    "description": "Used for effects of ionizing and nonionizing radiation upon living organisms, organs and tissues, and their constituents, and upon physiologic processes. It includes the effect of irradiation on drugs and chemicals.",
+    "prompt": "### Radiation Effects\n* Code: 58\n* Description: Used for effects of ionizing and nonionizing radiation upon living organisms, organs and tissues, and their constituents, and upon physiologic processes. It includes the effect of irradiation on drugs and chemicals."
+  },
+  {
+    "code": "59",
+    "title": "Radiotherapy",
+    "description": "Used for effects of ionizing and nonionizing radiation upon living organisms, organs and tissues, and their constituents, and upon physiologic processes. It includes the effect of irradiation on drugs and chemicals.",
+    "prompt": "### Radiotherapy\n* Code: 59\n* Description: Used for effects of ionizing and nonionizing radiation upon living organisms, organs and tissues, and their constituents, and upon physiologic processes. It includes the effect of irradiation on drugs and chemicals."
+  },
+  {
+    "code": "60",
+    "title": "Rehabilitation",
+    "description": "Used with diseases and surgical procedures for restoration of function of the individual.",
+    "prompt": "### Rehabilitation\n* Code: 60\n* Description: Used with diseases and surgical procedures for restoration of function of the individual."
+  },
+  {
+    "code": "61",
+    "title": "Secondary",
+    "description": "Used with neoplasms to indicate the secondary location to which the neoplastic process has metastasized.",
+    "prompt": "### Secondary\n* Code: 61\n* Description: Used with neoplasms to indicate the secondary location to which the neoplastic process has metastasized."
+  },
+  {
+    "code": "62",
+    "title": "Standards",
+    "description": "Used with facilities, personnel, and program headings for the development, testing, and application of standards of adequacy or acceptable performance and with chemicals and drugs for standards of identification, quality, and potency. It includes health or safety standards in industries and occupations.",
+    "prompt": "### Standards\n* Code: 62\n* Description: Used with facilities, personnel, and program headings for the development, testing, and application of standards of adequacy or acceptable performance and with chemicals and drugs for standards of identification, quality, and potency. It includes health or safety standards in industries and occupations."
+  },
+  {
+    "code": "63",
+    "title": "Statistics & Numerical Data",
+    "description": "Used with non-disease headings for the expression of numerical values which describe particular sets or groups of data. It excludes demand for which \"supply & distribution\" is used.",
+    "prompt": "### Statistics & Numerical Data\n* Code: 63\n* Description: Used with non-disease headings for the expression of numerical values which describe particular sets or groups of data. It excludes demand for which \"supply & distribution\" is used."
+  },
+  {
+    "code": "64",
+    "title": "Supply & Distribution",
+    "description": "Used for the quantitative availability and distribution of material, equipment, health services, personnel, and facilities. It excludes food supply and water supply in industries and occupations.",
+    "prompt": "### Supply & Distribution\n* Code: 64\n* Description: Used for the quantitative availability and distribution of material, equipment, health services, personnel, and facilities. It excludes food supply and water supply in industries and occupations."
+  },
+  {
+    "code": "65",
+    "title": "Surgery",
+    "description": "Used for operative procedures on organs, regions, or tissues in the treatment of diseases, including tissue section by lasers. It excludes transplantation, for which \"transplantation\" is used.",
+    "prompt": "### Surgery\n* Code: 65\n* Description: Used for operative procedures on organs, regions, or tissues in the treatment of diseases, including tissue section by lasers. It excludes transplantation, for which \"transplantation\" is used."
+  },
+  {
+    "code": "66",
+    "title": "Therapeutic Use",
+    "description": "Used with drugs, biological preparations, and physical agents for their use in the prophylaxis and treatment of disease. It includes veterinary use.",
+    "prompt": "### Therapeutic Use\n* Code: 66\n* Description: Used with drugs, biological preparations, and physical agents for their use in the prophylaxis and treatment of disease. It includes veterinary use."
+  },
+  {
+    "code": "67",
+    "title": "Therapy",
+    "description": "Used with diseases for therapeutic interventions except drug therapy, diet therapy, radiotherapy, and surgery, for which specific subheadings exist. The concept is also used for articles and books dealing with multiple therapies.",
+    "prompt": "### Therapy\n* Code: 67\n* Description: Used with diseases for therapeutic interventions except drug therapy, diet therapy, radiotherapy, and surgery, for which specific subheadings exist. The concept is also used for articles and books dealing with multiple therapies."
+  },
+  {
+    "code": "68",
+    "title": "Toxicity",
+    "description": "Used with drugs and chemicals for experimental human and animal studies of their ill effects. It includes studies to determine the margin of safety or the reactions accompanying administration at various dose levels. It is used also for exposure to environmental agents. Poisoning should be considered for life-threatening exposure to environmental agents.",
+    "prompt": "### Toxicity\n* Code: 68\n* Description: Used with drugs and chemicals for experimental human and animal studies of their ill effects. It includes studies to determine the margin of safety or the reactions accompanying administration at various dose levels. It is used also for exposure to environmental agents. Poisoning should be considered for life-threatening exposure to environmental agents."
+  },
+  {
+    "code": "69",
+    "title": "Transmission",
+    "description": "Used with diseases for studies of the modes of transmission.",
+    "prompt": "### Transmission\n* Code: 69\n* Description: Used with diseases for studies of the modes of transmission."
+  },
+  {
+    "code": "70",
+    "title": "Transplantation",
+    "description": "Used with organs, tissues, or cells for transplantation from one site to another within the same subject, or from one subject to another of the same species or different species.",
+    "prompt": "### Transplantation\n* Code: 70\n* Description: Used with organs, tissues, or cells for transplantation from one site to another within the same subject, or from one subject to another of the same species or different species."
+  },
+  {
+    "code": "71",
+    "title": "Trends",
+    "description": "Used for the manner in which a subject changes, qualitatively or quantitatively, with time, whether past, present, or future. It excludes discussions of the course of disease in particular patients.",
+    "prompt": "### Trends\n* Code: 71\n* Description: Used for the manner in which a subject changes, qualitatively or quantitatively, with time, whether past, present, or future. It excludes discussions of the course of disease in particular patients."
+  },
+  {
+    "code": "72",
+    "title": "Ultrastructure",
+    "description": "Used with tissues and cells (including neoplasms) and microorganisms for microanatomic structures, generally below the size visible by light microscopy.",
+    "prompt": "### Ultrastructure\n* Code: 72\n* Description: Used with tissues and cells (including neoplasms) and microorganisms for microanatomic structures, generally below the size visible by light microscopy."
+  },
+  {
+    "code": "73",
+    "title": "Urine",
+    "description": "Used for the presence or analysis of substances in the urine, and also for the examination of, or changes in, the urine in disease.",
+    "prompt": "### Urine\n* Code: 73\n* Description: Used for the presence or analysis of substances in the urine, and also for the examination of, or changes in, the urine in disease."
+  },
+  {
+    "code": "74",
+    "title": "Veterinary",
+    "description": "Used for naturally occurring diseases in animals, or for diagnostic, preventive, or therapeutic procedures used in veterinary medicine.",
+    "prompt": "### Veterinary\n* Code: 74\n* Description: Used for naturally occurring diseases in animals, or for diagnostic, preventive, or therapeutic procedures used in veterinary medicine."
+  },
+  {
+    "code": "75",
+    "title": "Virology",
+    "description": "Used with organs, animals, and higher plants and with diseases for virologic studies. For bacteria, rickettsia, and fungi, \"microbiology\" is used; for parasites, \"parasitology\" is used.",
+    "prompt": "### Virology\n* Code: 75\n* Description: Used with organs, animals, and higher plants and with diseases for virologic studies. For bacteria, rickettsia, and fungi, \"microbiology\" is used; for parasites, \"parasitology\" is used."
+  }
+]

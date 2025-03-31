@@ -1,0 +1,184 @@
+[
+  {
+    "code": "00",
+    "title": "Analysis",
+    "description": "Used for the identification or quantitative determination of a substance or its constituents and metabolites; includes the analysis of air, water, or other environmental carrier. It excludes the chemical analysis of tissues, tumors, body fluids, organisms, and plants for which \"chemistry\" is used. The concept applies to both methodology and results. For analysis of substances in blood, cerebrospinal fluid, and urine the specific subheading designating the fluid is used.",
+    "sub_qualifiers": "- Blood - Cerebrospinal Fluid - Isolation & Purification - Urine",
+    "prompt": "### Analysis\n* Code: 00\n* Description: Used for the identification or quantitative determination of a substance or its constituents and metabolites; includes the analysis of air, water, or other environmental carrier. It excludes the chemical analysis of tissues, tumors, body fluids, organisms, and plants for which \"chemistry\" is used. The concept applies to both methodology and results. For analysis of substances in blood, cerebrospinal fluid, and urine the specific subheading designating the fluid is used.\n* Sub Qualifiers Hiearchy:\n- Blood - Cerebrospinal Fluid - Isolation & Purification - Urine"
+  },
+  {
+    "code": "01",
+    "title": "Anatomy & Histology",
+    "description": "Used with organs, regions, and tissues for normal descriptive anatomy and histology, and for the normal anatomy and structure of animals and plants.",
+    "sub_qualifiers": "- Blood Supply - Cytology - Ultrastructure - Embryology - Abnormalities - Innervation - Pathology",
+    "prompt": "### Anatomy & Histology\n* Code: 01\n* Description: Used with organs, regions, and tissues for normal descriptive anatomy and histology, and for the normal anatomy and structure of animals and plants.\n* Sub Qualifiers Hiearchy:\n- Blood Supply - Cytology - Ultrastructure - Embryology - Abnormalities - Innervation - Pathology"
+  },
+  {
+    "code": "02",
+    "title": "Chemistry",
+    "description": "Used with chemicals, biological, and non-biological substances for their composition, structure, characterization, and properties; also used for the chemical composition or content of organs, tissue, tumors, body fluids, organisms, and plants. Excludes chemical analysis and determination of substances for which \"analysis\" is used; excludes synthesis for which \"chemical synthesis\" is used; excludes isolation and purification of substances for which \"isolation & purification\" is used.",
+    "sub_qualifiers": "- Agonists - Analogs & Derivatives - Antagonists & Inhibitors - Chemical Synthesis",
+    "prompt": "### Chemistry\n* Code: 02\n* Description: Used with chemicals, biological, and non-biological substances for their composition, structure, characterization, and properties; also used for the chemical composition or content of organs, tissue, tumors, body fluids, organisms, and plants. Excludes chemical analysis and determination of substances for which \"analysis\" is used; excludes synthesis for which \"chemical synthesis\" is used; excludes isolation and purification of substances for which \"isolation & purification\" is used.\n* Sub Qualifiers Hiearchy:\n- Agonists - Analogs & Derivatives - Antagonists & Inhibitors - Chemical Synthesis"
+  },
+  {
+    "code": "03",
+    "title": "Diagnosis",
+    "description": "Used with diseases for all aspects of diagnosis, including examination, differential diagnosis and prognosis. Excludes diagnosis using imaging techniques (e.g. radiography, scintigraphy, and ultrasonography) for which \"diagnostic imaging\" is used.",
+    "sub_qualifiers": "- Diagnostic Imaging",
+    "prompt": "### Diagnosis\n* Code: 03\n* Description: Used with diseases for all aspects of diagnosis, including examination, differential diagnosis and prognosis. Excludes diagnosis using imaging techniques (e.g. radiography, scintigraphy, and ultrasonography) for which \"diagnostic imaging\" is used.\n* Sub Qualifiers Hiearchy:\n- Diagnostic Imaging"
+  },
+  {
+    "code": "04",
+    "title": "Etiology",
+    "description": "Used with diseases for causative agents including microorganisms and includes environmental and social factors and personal habits as contributing factors. It includes pathogenesis.",
+    "sub_qualifiers": "- Chemically Induced - Complications - Secondary - Congenital - Embryology - Genetics - Immunology - Microbiology - Virology - Parasitology - Transmission",
+    "prompt": "### Etiology\n* Code: 04\n* Description: Used with diseases for causative agents including microorganisms and includes environmental and social factors and personal habits as contributing factors. It includes pathogenesis.\n* Sub Qualifiers Hiearchy:\n- Chemically Induced - Complications - Secondary - Congenital - Embryology - Genetics - Immunology - Microbiology - Virology - Parasitology - Transmission"
+  },
+  {
+    "code": "05",
+    "title": "Organization & Administration",
+    "description": "Used for administrative structure and management.",
+    "sub_qualifiers": "- Economics - Legislation & Jurisprudence",
+    "prompt": "### Organization & Administration\n* Code: 05\n* Description: Used for administrative structure and management.\n* Sub Qualifiers Hiearchy:\n- Economics - Legislation & Jurisprudence"
+  },
+  {
+    "code": "06",
+    "title": "Standards",
+    "description": "Used with facilities, personnel, and program headings for the development, testing, and application of standards of adequacy or acceptable performance and with chemicals and drugs for standards of identification, quality, and potency. It includes health or safety standards in industries and occupations.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Standards\n* Code: 06\n* Description: Used with facilities, personnel, and program headings for the development, testing, and application of standards of adequacy or acceptable performance and with chemicals and drugs for standards of identification, quality, and potency. It includes health or safety standards in industries and occupations.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "07",
+    "title": "Supply & Distribution",
+    "description": "Used for the quantitative availability and distribution of material, equipment, health services, personnel, and facilities. It excludes food supply and water supply in industries and occupations.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Supply & Distribution\n* Code: 07\n* Description: Used for the quantitative availability and distribution of material, equipment, health services, personnel, and facilities. It excludes food supply and water supply in industries and occupations.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "08",
+    "title": "Trends",
+    "description": "Used for the manner in which a subject changes, qualitatively or quantitatively, with time, whether past, present, or future. It excludes discussions of the course of disease in particular patients.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Trends\n* Code: 08\n* Description: Used for the manner in which a subject changes, qualitatively or quantitatively, with time, whether past, present, or future. It excludes discussions of the course of disease in particular patients.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "09",
+    "title": "Pharmacology",
+    "description": "Used with drugs and exogenously administered chemical substances for their effects on living tissues and organisms. It includes acceleration and inhibition of physiological and biochemical processes and other pharmacologic mechanisms of action.",
+    "sub_qualifiers": "- Adminstration & Dosage - Adverse Effects - Poisoning - Toxicity - Agonists - Antagonists & Inhibitors - Pharmacokinetics",
+    "prompt": "### Pharmacology\n* Code: 09\n* Description: Used with drugs and exogenously administered chemical substances for their effects on living tissues and organisms. It includes acceleration and inhibition of physiological and biochemical processes and other pharmacologic mechanisms of action.\n* Sub Qualifiers Hiearchy:\n- Adminstration & Dosage - Adverse Effects - Poisoning - Toxicity - Agonists - Antagonists & Inhibitors - Pharmacokinetics"
+  },
+  {
+    "code": "10",
+    "title": "Physiology",
+    "description": "Used with organs, tissues, and cells of unicellular and multicellular organisms for normal function. It is used also with biochemical substances, endogenously produced, for their physiologic role.",
+    "sub_qualifiers": "- Genetics - Growth & Development - Immunology - Metabolism - Biosynthesis - Blood - Cerebrospinal Fluid - Deficiency - Enzymology - Pharmacokinetics - Urine - Physiopathology",
+    "prompt": "### Physiology\n* Code: 10\n* Description: Used with organs, tissues, and cells of unicellular and multicellular organisms for normal function. It is used also with biochemical substances, endogenously produced, for their physiologic role.\n* Sub Qualifiers Hiearchy:\n- Genetics - Growth & Development - Immunology - Metabolism - Biosynthesis - Blood - Cerebrospinal Fluid - Deficiency - Enzymology - Pharmacokinetics - Urine - Physiopathology"
+  },
+  {
+    "code": "11",
+    "title": "Statistics & Numerical Data",
+    "description": "Used with non-disease headings for the expression of numerical values which describe particular sets or groups of data. It excludes demand for which \"supply & distribution\" is used.",
+    "sub_qualifiers": "- Epidemiology - Ethnology - Mortality - Supply & Distribution",
+    "prompt": "### Statistics & Numerical Data\n* Code: 11\n* Description: Used with non-disease headings for the expression of numerical values which describe particular sets or groups of data. It excludes demand for which \"supply & distribution\" is used.\n* Sub Qualifiers Hiearchy:\n- Epidemiology - Ethnology - Mortality - Supply & Distribution"
+  },
+  {
+    "code": "12",
+    "title": "Therapeutic Use",
+    "description": "Used with drugs, biological preparations, and physical agents for their use in the prophylaxis and treatment of disease. It includes veterinary use.",
+    "sub_qualifiers": "- Administration & Dosage - Adverse Effects - Poisoning",
+    "prompt": "### Therapeutic Use\n* Code: 12\n* Description: Used with drugs, biological preparations, and physical agents for their use in the prophylaxis and treatment of disease. It includes veterinary use.\n* Sub Qualifiers Hiearchy:\n- Administration & Dosage - Adverse Effects - Poisoning"
+  },
+  {
+    "code": "13",
+    "title": "Therapy",
+    "description": "Used with diseases for therapeutic interventions except drug therapy, diet therapy, radiotherapy, and surgery, for which specific subheadings exist. The concept is also used for articles and books dealing with multiple therapies.",
+    "sub_qualifiers": "- Diet Therapy - Drug Therapy - Nursing - Prevention & Control - Radiotherapy - Rehabilitation - Surgery - Transplantation",
+    "prompt": "### Therapy\n* Code: 13\n* Description: Used with diseases for therapeutic interventions except drug therapy, diet therapy, radiotherapy, and surgery, for which specific subheadings exist. The concept is also used for articles and books dealing with multiple therapies.\n* Sub Qualifiers Hiearchy:\n- Diet Therapy - Drug Therapy - Nursing - Prevention & Control - Radiotherapy - Rehabilitation - Surgery - Transplantation"
+  },
+  {
+    "code": "14",
+    "title": "Classification",
+    "description": "Used for taxonomic or other systematic or hierarchical classification systems.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Classification\n* Code: 14\n* Description: Used for taxonomic or other systematic or hierarchical classification systems.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "15",
+    "title": "Drug Effects",
+    "description": "Used with organs, regions, tissues, or organisms and physiological and psychological processes for the effects of drugs and chemicals.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Drug Effects\n* Code: 15\n* Description: Used with organs, regions, tissues, or organisms and physiological and psychological processes for the effects of drugs and chemicals.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "16",
+    "title": "Education",
+    "description": "Used for education, training programs, and courses in various fields and disciplines, and for training groups of persons.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Education\n* Code: 16\n* Description: Used for education, training programs, and courses in various fields and disciplines, and for training groups of persons.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "17",
+    "title": "Ethics",
+    "description": "Used with techniques and activities for discussion and analysis with respect to human and social values.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Ethics\n* Code: 17\n* Description: Used with techniques and activities for discussion and analysis with respect to human and social values.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "18",
+    "title": "History",
+    "description": "Used for the historical aspects of any subject. It includes brief historical notes but excludes case histories.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### History\n* Code: 18\n* Description: Used for the historical aspects of any subject. It includes brief historical notes but excludes case histories.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "19",
+    "title": "Injuries",
+    "description": "Used with anatomic headings, animals, and sports for wounds and injuries. Excludes cell damage, for which \"pathology\" is used.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Injuries\n* Code: 19\n* Description: Used with anatomic headings, animals, and sports for wounds and injuries. Excludes cell damage, for which \"pathology\" is used.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "20",
+    "title": "Instrumentation",
+    "description": "Used with diagnostic or therapeutic procedures, analytic techniques, and specialties or disciplines, for the development or modification of apparatus, instruments, or equipment.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Instrumentation\n* Code: 20\n* Description: Used with diagnostic or therapeutic procedures, analytic techniques, and specialties or disciplines, for the development or modification of apparatus, instruments, or equipment.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "21",
+    "title": "Methods",
+    "description": "Used with techniques, procedures, and programs for methods.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Methods\n* Code: 21\n* Description: Used with techniques, procedures, and programs for methods.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "22",
+    "title": "Pathogenicity",
+    "description": "Used with microorganisms, viruses, and parasites for studies of their ability to cause disease in man, animals, or plants.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Pathogenicity\n* Code: 22\n* Description: Used with microorganisms, viruses, and parasites for studies of their ability to cause disease in man, animals, or plants.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "23",
+    "title": "Psychology",
+    "description": "Used with non-psychiatric diseases, techniques, and named groups for psychologic, psychiatric, psychosomatic, psychosocial, behavioral, and emotional aspects, and with psychiatric disease for psychologic aspects; used also with animal terms for animal behavior and psychology.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Psychology\n* Code: 23\n* Description: Used with non-psychiatric diseases, techniques, and named groups for psychologic, psychiatric, psychosomatic, psychosocial, behavioral, and emotional aspects, and with psychiatric disease for psychologic aspects; used also with animal terms for animal behavior and psychology.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "24",
+    "title": "Radiation Effects",
+    "description": "Used for effects of ionizing and nonionizing radiation upon living organisms, organs and tissues, and their constituents, and upon physiologic processes. It includes the effect of irradiation on drugs and chemicals.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Radiation Effects\n* Code: 24\n* Description: Used for effects of ionizing and nonionizing radiation upon living organisms, organs and tissues, and their constituents, and upon physiologic processes. It includes the effect of irradiation on drugs and chemicals.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  },
+  {
+    "code": "25",
+    "title": "Veterinary",
+    "description": "Used for naturally occurring diseases in animals, or for diagnostic, preventive, or therapeutic procedures used in veterinary medicine.",
+    "sub_qualifiers": "  - Null",
+    "prompt": "### Veterinary\n* Code: 25\n* Description: Used for naturally occurring diseases in animals, or for diagnostic, preventive, or therapeutic procedures used in veterinary medicine.\n* Sub Qualifiers Hiearchy:\n  - Null"
+  }
+]
