@@ -99,9 +99,11 @@ To train the models, you can use our commands at `exp/train_commands.sh` to invo
 
 ### 🧐 Evaluation
 
-We leverage `sglang` to speed up inference process.
+We leverage `sglang` to speed up inference process. 
 
 To evaluate the models, your can use our commands at `exp/eval_commands.sh` to execute the makefiles in `exp/`, which run the script `src/eval/inference_keep_think.py`.
+
+Download the eval data following the [docs](https://github.com/UCSC-VLAA/m1/blob/main/docs/ENV.md#download-eval-data).
 
 We provide our results in [UCSC-VLAA/m1-results](https://huggingface.co/datasets/UCSC-VLAA/m1-results).
 
