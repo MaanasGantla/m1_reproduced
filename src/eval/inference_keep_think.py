@@ -133,7 +133,14 @@ def main(
         return
 
     # Load data
-    check_md5(config.eval_data_path, config.eval_data_md5sum)
+
+
+    # might have to comment out the check_md line if I decide to cahnge m1_eval_data.json
+    # check_md5(config.eval_data_path, config.eval_data_md5sum)
+
+
+
+
     input_data = load_huatuo_eval_data(config.eval_data_path)
 
     if config.limit > 0:

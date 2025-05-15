@@ -1,7 +1,7 @@
 limit ?= -1
 overwrite ?= False
 tp ?= 1
-dp ?= 8
+dp ?= 4
 model_path ?= UCSC-VLAA/m1-32B-1K
 output_dir ?= outputs/250319-ablation-thinking_budget/m1-32B-1K
 batch_size ?= 1024
@@ -12,6 +12,14 @@ temperature ?= 0.0
 all: start_server 8192 4096 2048 1024 512 256 128 stop_server
 
 start_server:
+	@echo "---------------------------------------------------------------------"
+	@echo ">>> DIAGNOSTIC (thinking_budget.makefile for start_server):"
+	@echo ">>>   About to call sub-make (template.makefile for eval_llm-start_server)."
+	@echo ">>>   Current values in thinking_budget.makefile:"
+	@echo ">>>     model_path='${model_path}'"
+	@echo ">>>     tp='${tp}'"  # Should be 1 from your main command
+	@echo ">>>     dp='${dp}'"  # Should be 4 from your main command
+	@echo "---------------------------------------------------------------------"
 	make -f exp/250318-eval-medical_llm/template.makefile \
 	model_path=${model_path} \
 	exp_name=thinking_budget \
@@ -35,6 +43,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -50,6 +60,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -65,6 +77,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -80,6 +94,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -95,6 +111,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -110,6 +128,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -125,6 +145,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -140,6 +162,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}
@@ -155,6 +179,8 @@ start_server:
 	output_dir=${output_dir} \
 	limit=${limit} \
 	overwrite=${overwrite} \
+	dp=${dp}\
+	tp=${tp}\
 	eval_llm-only_inference \
 	seed=${seed} \
 	temperature=${temperature}

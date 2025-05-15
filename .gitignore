@@ -137,4 +137,9 @@ dmypy.json
 /ckpts
 /third_party
 
+
+# ignore experiment outputs/checkpoints
+exp/
+train*.log
+
 /mmqm

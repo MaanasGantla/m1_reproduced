@@ -12,6 +12,8 @@ import warnings
 from dataclasses import asdict, dataclass, field
 from typing import Optional
 
+import torch
+
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 import logging
@@ -45,8 +47,8 @@ def train():
     if config.use_flash_attention_2:
         logging.info(f"Use flash_attention_2")
         kwargs["attn_implementation"] =  "flash_attention_2"
-    else:
-        logging.info(f"Disable flash_attention_2")
+    # else:
+    logging.info(f"Disable flash_attention_2")
 
     if "70B" in config.model_name:
         # Removed "low_cpu_mem_usage": True, for 70B, since by default we are in FSDP,
@@ -60,7 +62,19 @@ def train():
     else:
         # NOTE xk: In s1, flash-attn is not used.
         # kwargs = {"torch_dtype": "auto", "attn_implementation": "flash_attention_2", "use_cache": False}
-        kwargs = {}
+        # kwargs = {}
+
+
+        
+        logging.info("Loading 7B model in bfloat16 with device_map=auto")
+        kwargs.update({
+        "device_map": "auto",
+        "torch_dtype": torch.bfloat16,
+        "low_cpu_mem_usage": True,
+        "use_cache": False,
+        })
+        
+
         model = transformers.AutoModelForCausalLM.from_pretrained(config.model_name, **kwargs)
 
     dataset = load_dataset(config.train_file_path)
@@ -77,6 +91,12 @@ def train():
         response_template = "<|im_start|>assistant\n"
         # Use a token that is never used
         tokenizer.pad_token = "<|fim_pad|>"
+
+    '''
+    if args.do_eval:
+        instruction_template = "Q: {instruction}\nA:"
+        response_template    = "{response}"
+    '''
 
     # Only compute loss over assistant responses
     # Verified that it precisely starts where the thinking tokens start and ends with the first pad token
@@ -104,3 +124,4 @@ def train():
 
 if __name__ == "__main__":
     train()
+

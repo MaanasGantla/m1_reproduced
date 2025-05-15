@@ -28,6 +28,16 @@ eval_llm-start_server:
 	python src/eval/inference_keep_think.py -u "model_path=${model_path},tp=${tp},dp=${dp}" --only_start_server
 
 eval_llm-only_inference:
+	@echo "---------------------------------------------------------------------"
+	@echo ">>> DIAGNOSTIC ECHO from template.makefile (eval_llm-only_inference):"
+	@echo ">>> Received for sub-make: tp='${tp}'"
+	@echo ">>> Received for sub-make: dp='${dp}'"
+	@echo ">>> model_path=${model_path}"
+	@echo ">>> max_new_tokens=${max_new_tokens}"
+	@echo "---------------------------------------------------------------------"
+
+
+
 	@echo "model_path=${model_path}"
 	@echo "max_new_tokens=${max_new_tokens}"
 	@echo "batch_size=${batch_size}"
@@ -57,6 +67,8 @@ eval_llm-only_inference:
 	force_think=${force_think},\
 	keep_think_below_budget_times=${keep_think_below_budget_times},\
 	timeout=${timeout},\
+	tp=${tp},\
+	dp=${dp},\
 	seed=${seed}\
 	" \
 	--only_inference
